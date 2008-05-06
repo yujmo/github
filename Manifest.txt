@@ -11,6 +11,7 @@ lib/grit/config.rb
 lib/grit/diff.rb
 lib/grit/errors.rb
 lib/grit/git.rb
+lib/grit/index.rb
 lib/grit/lazy.rb
 lib/grit/ref.rb
 lib/grit/repo.rb
