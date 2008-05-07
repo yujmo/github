@@ -82,6 +82,13 @@ module Grit
     def refs
       [ Head.find_all(self), Tag.find_all(self), Remote.find_all(self) ].flatten
     end
+    
+    # Boolean value if the branch specified is found in the repository
+    # 
+    # Returns Boolean
+    def has_branch?(branch)
+      self.branches.map(&:name).include?(branch)
+    end
 
     # An array of Commit objects representing the history of a given ref/commit
     #   +start+ is the branch/commit name (default 'master')
