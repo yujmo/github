@@ -1,0 +1,3 @@
+[submodule "gitdev1"]
+	path = gitdev1
+	url = root@192.168.27.152:/root/gitdev1.git
