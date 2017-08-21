@@ -1,6 +1,2 @@
 <aaaaaa<<<<<< HEAD
-aaaaaaaaaaaaaaaaaa:wq
-
-=======
-sdjshdfSKaljsdfsaaaaaSDf;kslkj
->>>>>>> test/test1
+aaaaaaaaaaaaaaaaaa:
